@@ -14,7 +14,7 @@ export default function BirthdayScreen({
   const [height, setHeight] = useState(typeof window !== "undefined" ? window.innerHeight : 600);
   const [showConfetti, setShowConfetti] = useState(true);
   // blessing typing toggle
-  const blessingFull = "Chúc Loan sinh nhật thật vui vẻ và ngập tràn hạnh phúc nha. Mong rằng trong tuổi mới, Loan sẽ nhận được thật nhiều yêu thương… và hy vọng một phần trong đó đến từ mình. Đừng buồn nữa nha cô gái! Người viết Thiện, kkk";
+  const blessingFull = "Chúc Loan ngày mai sinh nhật thật vui vẻ và ngập tràn hạnh phúc nha. Mong rằng trong tuổi mới, Loan sẽ nhận được thật nhiều yêu thương… và hy vọng một phần trong đó đến từ mình. Đừng buồn nữa nha cô gái! Người viết Thiện, kkk";
   const [blessingVisible, setBlessingVisible] = useState(false);
   const [blessingTyped, setBlessingTyped] = useState("");
   const blessingTimerRef = useRef<number | null>(null);
